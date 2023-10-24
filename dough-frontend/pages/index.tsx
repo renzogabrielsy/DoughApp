@@ -13,15 +13,7 @@ type Props = {};
 const Home: React.FC = (props: Props) => {
   return (
     <div>
-      <Dialog>
-        <DialogTrigger>Test</DialogTrigger>
-        <DialogContent>
-          <DialogHeader>
-            <DialogTitle>Shadcn is working! Congrats.</DialogTitle>
-            <DialogDescription>Now start working.</DialogDescription>
-          </DialogHeader>
-        </DialogContent>
-      </Dialog>
+      test
     </div>
   );
 };
